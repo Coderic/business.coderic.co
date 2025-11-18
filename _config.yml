@@ -1,0 +1,100 @@
+url: "https://business.coderic.co"
+baseurl: ""
+title: "Coderic"
+subtitle: "Business"
+network: "BUSINESS"
+description: "Productos Prodaric y Sistemas Empresariales. Soluciones de negocio para empresas modernas."
+permalink: pretty
+
+# Theme
+remote_theme: Coderic/jekyll-theme-coderic
+
+# Logo
+logo: "/images/logo.svg"
+
+# Navigation with flyout menu support
+navigation:
+  - label: "Inicio"
+    url: "/"
+  - label: "Prodaric"
+    url: "/#prodaric"
+    has_flyout: true
+    flyout_sections:
+      - title: "Productos Prodaric"
+        links:
+          - label: "Prodaric CRM"
+            url: "/prodaric/crm"
+            description: "Customer Relationship Management"
+          - label: "Prodaric ERP"
+            url: "/prodaric/erp"
+            description: "Enterprise Resource Planning"
+          - label: "Prodaric HRM"
+            url: "/prodaric/hrm"
+            description: "Human Resource Management"
+          - label: "Prodaric CCR"
+            url: "/prodaric/ccr"
+            description: "Continuity of Care Record"
+          - label: "Prodaric LCM"
+            url: "/prodaric/lcm"
+            description: "Learning Content Management"
+          - label: "Prodaric CMS"
+            url: "/prodaric/cms"
+            description: "Content Management System"
+  - label: "Sistemas Empresariales"
+    url: "/#enterprise"
+    has_flyout: true
+    flyout_sections:
+      - title: "Soluciones Empresariales"
+        links:
+          - label: "Sistemas de Contabilidad"
+            url: "/accounting-systems"
+            description: "Sistemas contables empresariales completos"
+          - label: "Sistemas Administrativos"
+            url: "/administrative-systems"
+            description: "Gestión administrativa integral para empresas"
+          - label: "Sistemas de Control de Acceso"
+            url: "/access-control-systems"
+            description: "Control de acceso y seguridad empresarial"
+
+# Footer Links
+footer_links:
+  - label: "Documentation"
+    url: "https://github.com/Coderic/business.coderic.co"
+  - label: "About"
+    url: "/about"
+
+# Legal URLs
+privacy_url: "/privacy"
+legal_url: "/legal"
+tos_url: "/tos"
+
+# Auth URLs
+profile_url: "/profile"
+dashboard_url: "/dashboard"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-github-metadata
+
+# Sass configuration
+sass:
+  style: compressed
+  sourcemap: never
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .asset-cache
+  - .jekyll-assets-cache
+  - .bundle
+

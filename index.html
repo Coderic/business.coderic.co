@@ -1,0 +1,219 @@
+---
+layout: page
+---
+{% assign company = site.data.company %}
+
+<!-- Hero Section -->
+<div class="bg-stone-800 jumbotron relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+            <div class="w-full lg:w-1/2 text-white text-center lg:text-left">
+                <div class="inline-flex rounded-full text-base sm:text-lg border-stone-500 text-orange-500 border-2 px-3 py-1 mb-4">
+                    <svg class="h-5 w-5 sm:h-6 sm:w-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <rect x="2" y="28" width="28" height="2"/>
+                        <path d="M27,11a1,1,0,0,0,1-1V7a1,1,0,0,0-.66-.94l-11-4a1,1,0,0,0-.68,0l-11,4A1,1,0,0,0,4,7v3a1,1,0,0,0,1,1H6V24H4v2H28V24H26V11ZM6,7.7,16,4.06,26,7.7V9H6ZM18,24H14V11h4ZM8,11h4V24H8ZM24,24H20V11h4Z"/>
+                    </svg>
+                    BUSINESS
+                </div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4">
+                    Portal de Servicios Empresariales
+                </h1>
+                <p class="text-base sm:text-lg mb-3 sm:mb-4 text-gray-200">
+                    Productos Prodaric y Sistemas Empresariales. Soluciones de negocio para empresas modernas.
+                </p>
+                <p class="text-sm sm:text-base mb-6 text-gray-300">
+                    Parte del ecosistema Coderic | Soluciones empresariales integradas
+                </p>
+            </div>
+            <div class="w-full lg:w-1/2 flex justify-center">
+                <img src="/images/hero-thumb.png" class="w-64 sm:w-80 lg:w-96 h-auto" alt="Business Services" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Prodaric Products Section -->
+<section id="prodaric" class="py-12 sm:py-16 lg:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"/>
+                </svg>
+                Productos Prodaric
+            </div>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                Framework de Productividad
+            </h2>
+            <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+                Prodaric es un framework de productividad open source diseñado para empresas modernas. Cada producto incluye documentación completa y estándares de implementación.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <a href="/prodaric/crm" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="flex items-center justify-center w-20 h-20 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-500 transition-colors duration-300 mx-auto">
+                    <svg class="w-10 h-10 text-blue-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="m28,28H4c-1.1028,0-2-.8972-2-2v-6h2v6h24v-6h2v6c0,1.1028-.8972,2-2,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Prodaric CRM
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Customer Relationship Management - Gestión de relaciones con el cliente
+                </p>
+                <div class="flex items-center justify-center text-blue-600 font-semibold group-hover:text-blue-500">
+                    <span>Explorar Producto</span>
+                    <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+            
+            <a href="/prodaric/erp" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="flex items-center justify-center w-20 h-20 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-500 transition-colors duration-300 mx-auto">
+                    <svg class="w-10 h-10 text-blue-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="m28,28H4c-1.1028,0-2-.8972-2-2v-6h2v6h24v-6h2v6c0,1.1028-.8972,2-2,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Prodaric ERP
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Enterprise Resource Planning - Planificación de recursos empresariales
+                </p>
+                <div class="flex items-center justify-center text-blue-600 font-semibold group-hover:text-blue-500">
+                    <span>Explorar Producto</span>
+                    <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+            
+            <a href="/prodaric/hrm" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="flex items-center justify-center w-20 h-20 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-500 transition-colors duration-300 mx-auto">
+                    <svg class="w-10 h-10 text-blue-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="m28,28H4c-1.1028,0-2-.8972-2-2v-6h2v6h24v-6h2v6c0,1.1028-.8972,2-2,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Prodaric HRM
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Human Resource Management - Gestión de recursos humanos
+                </p>
+                <div class="flex items-center justify-center text-blue-600 font-semibold group-hover:text-blue-500">
+                    <span>Explorar Producto</span>
+                    <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+            
+            <a href="/prodaric/ccr" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="flex items-center justify-center w-20 h-20 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-500 transition-colors duration-300 mx-auto">
+                    <svg class="w-10 h-10 text-blue-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="m28,28H4c-1.1028,0-2-.8972-2-2v-6h2v6h24v-6h2v6c0,1.1028-.8972,2-2,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Prodaric CCR
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Continuity of Care Record - Continuidad del Registro del Cuidado
+                </p>
+                <div class="flex items-center justify-center text-blue-600 font-semibold group-hover:text-blue-500">
+                    <span>Explorar Producto</span>
+                    <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+            
+            <a href="/prodaric/lcm" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="flex items-center justify-center w-20 h-20 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-500 transition-colors duration-300 mx-auto">
+                    <svg class="w-10 h-10 text-blue-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="m28,28H4c-1.1028,0-2-.8972-2-2v-6h2v6h24v-6h2v6c0,1.1028-.8972,2-2,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Prodaric LCM
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Learning Content Management - Gestión de contenidos de aprendizaje
+                </p>
+                <div class="flex items-center justify-center text-blue-600 font-semibold group-hover:text-blue-500">
+                    <span>Explorar Producto</span>
+                    <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+            
+            <a href="/prodaric/cms" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="flex items-center justify-center w-20 h-20 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-500 transition-colors duration-300 mx-auto">
+                    <svg class="w-10 h-10 text-blue-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="m28,28H4c-1.1028,0-2-.8972-2-2v-6h2v6h24v-6h2v6c0,1.1028-.8972,2-2,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Prodaric CMS
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Content Management System - Sistema de gestión de contenidos
+                </p>
+                <div class="flex items-center justify-center text-blue-600 font-semibold group-hover:text-blue-500">
+                    <span>Explorar Producto</span>
+                    <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Enterprise Systems Section -->
+<section id="enterprise" class="py-12 sm:py-16 lg:py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                Sistemas Empresariales
+            </h2>
+            <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+                Soluciones empresariales completas para gestión integral de empresas.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            <a href="/accounting-systems" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Sistemas de Contabilidad
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Sistemas contables empresariales completos
+                </p>
+            </a>
+            
+            <a href="/administrative-systems" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Sistemas Administrativos
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Gestión administrativa integral para empresas
+                </p>
+            </a>
+            
+            <a href="/access-control-systems" class="group bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors">
+                    Sistemas de Control de Acceso
+                </h3>
+                <p class="text-base text-gray-600 text-center mb-4 leading-relaxed">
+                    Control de acceso y seguridad empresarial
+                </p>
+            </a>
+        </div>
+    </div>
+</section>
+
